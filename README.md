@@ -1,1 +1,2 @@
 # SkipList
+Skip list is a data structure that allows O(log n) search complexity as well as O(log n) insertion complexity within an ordered sequence of n elements. The elements are stored in sorted order, in a linked list of nodes. Each skip list entry has an array of next pointers, where next[i] points to an element that is roughly 2i nodes away from it. Search starts at the top level, goes as far as possible at each level, without going past target, descending one level at a time, until reaching the target node.
