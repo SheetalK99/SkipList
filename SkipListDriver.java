@@ -1,7 +1,4 @@
 
-package sak170006;
-import sak170006.Timer;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Iterator;
@@ -12,7 +9,7 @@ import java.util.Scanner;
 public class SkipListDriver {
     public static void main(String[] args) throws FileNotFoundException {
 	Scanner sc;
-	  File file = new File("F:\\UT Dallas\\Courses\\Sem1-Fall18\\Implementation of Data Structures\\LP\\LP2\\Starter\\Test\\lp2-t13.txt");
+	  File file = new File("\\lp2-t13.txt");
 	    sc = new Scanner(file);
 	    
 /*	if (args.length > 0) {
