@@ -1,15 +1,8 @@
-package sak170006;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-/**
- * @author Akshaya Ramaswamy
- * 		   Sheetal Kadam
- * 		   Maleeha S. Koul
- * 		   Meghna Mathur
- * 			(TEAM: LP 1)
- */
 
 //Purpose: Skip list implementation.
 
